@@ -1,0 +1,14 @@
+/home/nero/study/RSABasica/bin/Debug/net9.0/RSABasica
+/home/nero/study/RSABasica/bin/Debug/net9.0/RSABasica.deps.json
+/home/nero/study/RSABasica/bin/Debug/net9.0/RSABasica.runtimeconfig.json
+/home/nero/study/RSABasica/bin/Debug/net9.0/RSABasica.dll
+/home/nero/study/RSABasica/bin/Debug/net9.0/RSABasica.pdb
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.GeneratedMSBuildEditorConfig.editorconfig
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.AssemblyInfoInputs.cache
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.AssemblyInfo.cs
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.csproj.CoreCompileInputs.cache
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.dll
+/home/nero/study/RSABasica/obj/Debug/net9.0/refint/RSABasica.dll
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.pdb
+/home/nero/study/RSABasica/obj/Debug/net9.0/RSABasica.genruntimeconfig.cache
+/home/nero/study/RSABasica/obj/Debug/net9.0/ref/RSABasica.dll
