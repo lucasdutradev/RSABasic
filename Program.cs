@@ -1,9 +1,9 @@
 ﻿using System.Numerics;
 using System.Security.Cryptography;
 
-var numeroASerCriptografado = 777;
+var numberToCrypt = 777;
 
-var prime = GeneratePrimeTwoNumbers(numeroASerCriptografado);
+var prime = GeneratePrimeTwoNumbers(numberToCrypt);
 
 var n = prime.primoInicialp * prime.primoInicialq;
 
@@ -28,7 +28,7 @@ var inverseMod = ModInverse(choseE, totienFunction);
 var publicKey = (n, choseE);
 var privateKey = (n, inverseMod);
 
-var crypt = BigInteger.ModPow(numeroASerCriptografado, publicKey.choseE, publicKey.n);
+var crypt = BigInteger.ModPow(numberToCrypt, publicKey.choseE, publicKey.n);
 
 Console.WriteLine($"Resultado da criptografia RSA: {crypt}");
 
