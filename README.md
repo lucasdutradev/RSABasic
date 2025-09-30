@@ -1,20 +1,22 @@
 # RSABasic
 
-A basic RSA algorithm implementation in C# for learning and experimentation.
+Minimal RSA in C# for learning/experimentation.
 
-## Purpose
-To explore the fundamentals of asymmetric cryptography (RSA) in a simple and educational way.  
-Not intended for performance or production use.
+## What it does
+- Generates two small primes (`GeneratePrime`, Miller–Rabin style)
+- Builds keys: `n = p*q`, `φ = (p−1)(q−1)`
+- Picks the smallest `e` coprime to `φ`
+- Computes `d = e⁻¹ mod φ` (extended Euclid)
+- Encrypts/decrypts a hardcoded integer via `BigInteger.ModPow`
 
-## Features
-- Public/private key generation  
-- Message encryption  
-- Message decryption  
-- Console usage example  
+## Files
+- `Program.cs` — all logic (keygen, GCD, mod inverse, primality test)
 
-## How to Run
+## Requirements
+- .NET 8 SDK
+
+## Run
 ```bash
 git clone https://github.com/lucasdutradev/RSABasic.git
 cd RSABasic
 dotnet run
-```
